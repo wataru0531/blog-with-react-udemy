@@ -1,0 +1,40 @@
+.globalNav{
+  height: 50px;
+  background-color: #cb8c54;
+}
+
+.globalNav__lists{
+  margin: 0;
+  padding: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.globalNav__list{
+  height: inherit;
+  list-style: none;
+}
+
+.globalNav__link {
+  padding-right: 20px;
+  padding-left: 20px;
+  height: inherit;
+  color:  #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color .3s;
+}
+
+.globalNav__link:hover {
+  color: cadetblue;
+}
+
+.globalNav__link > svg {
+  margin-right: 5px;
+}
+
